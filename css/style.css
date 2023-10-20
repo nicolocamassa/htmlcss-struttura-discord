@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: sans-serif;
 }
 
 header{
@@ -21,6 +22,10 @@ header{
     display: flex; 
     justify-content: center;
     align-items: center;
+}
+
+.row-end{
+    align-items: end;
 }
 
 .dashed-border{
@@ -77,29 +82,30 @@ li{
 
 /*---------------------------------------- */
 /* Main Style */
-section{
+/* DIMENSIONI RIPETUTE PER TUTTE LE SECTION ANCHE FOOTER */
+main section{
     width: 100%;
     height: 640px;
 }
 
-section:nth-child(1){
+main section:nth-child(1){
     height: 530px;
     background-color: #00008B;
 }
 
-section:nth-child(3){
+main section:nth-child(3){
     background-color: #D3D3D3;
 }
  
-section:nth-child(5){
+main section:nth-child(5){
     height: 1060px;
     background-color: #D3D3D3;
 }
 
-.main-first-window{
-    width: 80%;
-    height: 80%;
-    background-color: red;
+footer section{
+    width: 100%;
+    height: 670px;
+    background-color: #23272A
 }
 
 .container{
@@ -107,7 +113,6 @@ section:nth-child(5){
     height: 100%;
     width: 100%;
     margin: 0 auto;
-
 }
 
 .sm-cont{
@@ -132,9 +137,51 @@ section:nth-child(5){
     background-color: #FFC0CB;
 }
 
+.col-400{
+    height: 92%;
+    width: 110%;
+    background-color: #F08080;
+    margin-bottom:  30px;
+}
+
+footer .col-300{
+    background-color: #20B2AA;
+}
+
 .bigger-col{
     height: 90%;
     background-color: #228B22;
+}
+
+/* footer */
+.footer-section{
+    height: 120px;
+    width: 100%;
+    background-color: #23272A;
+}
+
+.col-300{
+    height: 92%;
+    width: 65%;
+    background-color: #FFC0CB;
+    margin-bottom:  30px;
+}
+
+.flex-display-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    height: 75%;
+    font-size: 22px;
+
+    background-color: #7FFFD4;
+}
+
+.bg-style{
+    background-color: #FFB6C1;
+    padding: 8px 10px;
+    bottom: 0;
 }
 
 /* TO-DO: */
