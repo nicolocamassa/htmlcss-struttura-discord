@@ -4,11 +4,17 @@
     box-sizing: border-box;
 }
 
-.row{
-    width: 100%;
+header{
+    background-color: lightblue; 
     height: 85px; 
 
-    background-color: lightblue; 
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+
+.row{
+    width: 100%;
 
     /* Allineamento orizzontale. */
     display: flex; 
