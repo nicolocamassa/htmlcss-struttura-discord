@@ -83,7 +83,7 @@ section{
 }
 
 section:nth-child(1){
-    height: 535px;
+    height: 530px;
     background-color: #00008B;
 }
 
@@ -92,8 +92,14 @@ section:nth-child(3){
 }
  
 section:nth-child(5){
-    height: 1065px;
+    height: 1060px;
     background-color: #D3D3D3;
+}
+
+.main-first-window{
+    width: 80%;
+    height: 80%;
+    background-color: red;
 }
 
 .container{
@@ -102,6 +108,16 @@ section:nth-child(5){
     width: 100%;
     margin: 0 auto;
 
+}
+
+.sm-cont{
+    max-width: 900px;
+}
+
+.col-20{
+    height: 80%;
+    width: 100%;
+    background-color: #EE82EE;
 }
 
 .col-100{
